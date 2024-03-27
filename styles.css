@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin:  16px 0;
+}
+hr{
+    margin: 8px 0;
+}
+ul{
+    
+    margin: 16px 0 0 32px  ;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.content {
+    outline: 2px solid black;
+    width: 1024px;
+    padding: 40px 20px;
+}
+
+.picProfile img{
+    margin: 24px 0;
+    border-radius: 50%;
+    width: 150px;
+}
+.personalInfo p {
+    margin: 24px 0;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td , th{
+    border: 1px solid black;
+    padding: 2px 8px;
+}
+table tr .schoolUniversity{
+    width: 70%;
+}
+table tr .fromAndTo{
+    width: 15%;
+}
+table .fcols{
+    background-color: rgb(230, 247, 255);
+}
+.cols1{
+    width: 20%;
+}
+.cols2{
+    width: 50%;
+}
+.cols3{
+    width: 30%;
+}
+.input form{
+    border: 1px solid black;
+    padding: 32px;
+    border-radius: 10px;
+    width: 70%;
+}
+.input form input,
+.input form select{
+    width: 70%;
+    height: 24px;
+}
+.input form textarea{
+    width: 70%;
+
+}
+.input form button{
+    width: 10%;
+
+}
